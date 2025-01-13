@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:left; 
+    margin:30px;;
+    padding: 0;
+}
+.banner {
+    display: flex;
+    align-items: center;
+
+    background-color: #9ccdc4; /* Deep blue for contrast */
+    color: white; /* Ensures text visibility */
+    padding: 50px;
+    border-radius: 20px;
+    max-width: 1200px;
+    margin:10px;
+}
+.bannerimage {
+    display: flex;
+    margin: 50pxpx;
+    justify-content: center;
+}
+
+
+
+
+.pillars {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+.pcard {
+    background: white;
+    width: 200px;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+    word-wrap: break-word;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container{
+    display: flex;
+    justify-content: center; /* Aligns cards in the center */
+    gap: 15px;
+    flex-wrap: wrap; 
+}
+.card1{
+    background-color: rgb(228, 228, 253);
+    width: 270px;
+    height: 200px;
+    border-radius: 25px;
+    padding:15px;
+}
+.card2{
+    background-color:rgb(201, 229, 201);
+    width: 270px;
+    height: 200px;
+    border-radius: 25px;   padding:15px;
+}
+.card3{
+    background-color: yellow;
+    width: 270px;
+    height: 200px;
+    border-radius: 25px;   padding:15px;
+}
+
+
+.donate {
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.tk {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.amount {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: white;
+    border-radius: 8px;
+}
+
+
+
+
