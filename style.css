@@ -125,10 +125,48 @@ body{
 
 
 /* last */
-.last{
-   
-  background-color:#C6E4D6;
-        padding: 20px;
-        border-radius: 20px;
 
+.newss {
+    background-color: lightgreen;
+     padding: 20px;
+    border-radius: 25px;
+      text-align: center;
+      margin-top: 40px;
+      width: 820px;
+}
+
+
+.newss p {
+    margin: 10px 0 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.boxxxx {
+    display: inline-flex;
+    border: 1px solid #000;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.boxxxx input {
+    border: none;
+    padding: 13px;
+}
+
+.boxxxx button {
+    border: none;
+    background-color: #006A50;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.boxxxx button:hover {
+ 
+    background-color: #cc1030;
+}
+
+#vision{
+    text-align: left;
 }
