@@ -6,6 +6,7 @@ body {
     margin:30px;;
     padding: 0;
 }
+
 .banner {
     display: flex;
     align-items: center;
@@ -26,7 +27,7 @@ body {
 .pillars {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 25px;
     flex-wrap: wrap; /* Ensures responsiveness */
 }
 
@@ -54,7 +55,7 @@ body {
     padding:15px;
 }
 .card2{
-    background-color:#09A15C;
+    background-color:#a0d8bf;
     width: 270px;
     height: 210px;
     border-radius: 25px;   padding:15px;
@@ -66,7 +67,13 @@ body {
     border-radius: 25px;  
      padding:15px;
 }
-
+.read-more:hover{
+    background-color: #861414; 
+}
+.amount:hover{
+    color: yellowgreen;
+    background-color: #eed9d9; 
+}
 
 /* this is the satellite section */
 .read-more {
@@ -121,32 +128,36 @@ body {
 
 .amount:hover {
     background-color: #5D6B6E; 
-
+}
 .donate
 
 body{
     margin: 100px;
 }
-
-
-.newss {
-    background-color: lightgreen;
-     padding: 20px;
-    border-radius: 25px;
-      text-align: center;
-      margin-top: 40px;
-      width: 820px;
+.donate1:hover {
+    background-color: rgb(56, 151, 56); 
+    transform: scale(1.1);
 }
 
+.lastttt{
+background-color:#C6E4D6;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 40px;
+    width: 823px;
+    margin-left: auto;
+    margin-right: auto; 
+}
 
-.newss p {
-    margin: 10px 0 20px;
-    font-size: 16px;
-    color: #333;
+.formmmm {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .boxxxx {
-    display: inline-flex;
+    display: flex;
     border: 1px solid #000;
     border-radius: 5px;
     overflow: hidden;
@@ -155,6 +166,8 @@ body{
 .boxxxx input {
     border: none;
     padding: 13px;
+    width: 200px; /* Adjust width */
+    font-size: 1em;
 }
 
 .boxxxx button {
@@ -166,15 +179,19 @@ body{
 }
 
 .boxxxx button:hover {
- 
     background-color: #cc1030;
 }
 
-#vision{
-    text-align: left;
+#spam {
+    color: #777;
+    font-size: 14px;
+    text-align: center;
 }
-.yns {
+
+
+.yns{
     background-image: url('B11A1--assignment-1-main/assets/quote-bg.png');
     background-repeat: no-repeat;
     background-position: left top;
 }
+
