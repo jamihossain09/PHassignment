@@ -116,15 +116,18 @@ body {
     font-size: 1.2em;
     color: white;
     border-radius: 8px;
+    transition: background-color 0.3s ease; /* Smooth transition */
 }
 
+.amount:hover {
+    background-color: #5D6B6E; 
+
+.donate
 
 body{
     margin: 100px;
 }
 
-
-/* last */
 
 .newss {
     background-color: lightgreen;
@@ -169,4 +172,9 @@ body{
 
 #vision{
     text-align: left;
+}
+.yns {
+    background-image: url('B11A1--assignment-1-main/assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: left top;
 }
